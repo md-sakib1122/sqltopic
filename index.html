@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Reference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0073e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+        }
+        .topics {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #0073e6;
+            color: rgb(240, 232, 232);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MySQL Function Groups</h1>
+        <table>
+            <tr>
+                <th>Function Group</th>
+                <th>Description</th>
+                <th>Examples</th>
+            </tr>
+            <tr>
+                <td>String Functions</td>
+                <td>Functions for text manipulation.</td>
+                <td>REPLACE(), SUBSTRING(), CONCAT(), LENGTH()</td>
+            </tr>
+            <tr>
+                <td>Type Conversion Functions</td>
+                <td>Functions to convert between different data types.</td>
+                <td>CAST(), CONVERT()</td>
+            </tr>
+            <tr>
+                <td>Aggregate Functions</td>
+                <td>Functions that operate on multiple rows and return a single result.</td>
+                <td>AVG(), SUM(), COUNT(), MAX(), MIN()</td>
+            </tr>
+            <tr>
+                <td>Mathematical Functions</td>
+                <td>Functions that perform mathematical operations.</td>
+                <td>ABS(), CEIL(), FLOOR(), ROUND()</td>
+            </tr>
+            <tr>
+                <td>Date and Time Functions</td>
+                <td>Functions for handling date and time values.</td>
+                <td>NOW(), CURDATE(), DATE_FORMAT()</td>
+            </tr>
+            <tr>
+                <td>Control Flow Functions</td>
+                <td>Functions that control logic in SQL expressions.</td>
+                <td>IF(), CASE, IFNULL(), COALESCE()</td>
+            </tr>
+        </table>
+        
+        <h2>Most Important Topics in MySQL</h2>
+        <div class="topics">
+            <ul>
+                <li><strong>Basic SQL Queries:</strong> SELECT, INSERT, UPDATE, DELETE, WHERE, ORDER BY, LIMIT</li>
+                <li><strong>Joins & Relationships:</strong> INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, SELF JOIN, CROSS JOIN</li>
+                <li><strong>Aggregation & Grouping:</strong> GROUP BY, HAVING, SUM(), AVG(), COUNT(), MAX(), MIN()</li>
+                <li><strong>Subqueries & CTE:</strong> EXISTS, IN, ANY, ALL, WITH</li>
+                <li><strong>Indexing & Performance Optimization:</strong> CREATE INDEX, UNIQUE INDEX, EXPLAIN Query</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
